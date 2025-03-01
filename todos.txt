@@ -1,3 +1,2 @@
 clean
-go for a walk
-shave
+do the dishes
