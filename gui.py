@@ -74,4 +74,7 @@ while True:
         case sg.WIN_CLOSED:
             break
 
+        case _:
+            break
+
 window.close()
