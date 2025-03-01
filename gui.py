@@ -1,6 +1,11 @@
 import functions
 import FreeSimpleGUI as sg
 import time
+import os
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt","w") as file:
+        pass
 
 sg.theme("DarkAmber")
 
@@ -74,7 +79,5 @@ while True:
         case sg.WIN_CLOSED:
             break
 
-        case _:
-            break
 
 window.close()
