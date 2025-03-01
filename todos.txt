@@ -1,1 +1,3 @@
 clean
+go for a walk
+shave
