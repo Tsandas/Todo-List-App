@@ -2,3 +2,7 @@
 bonus
 Excersises/
 __pycache__/
+dist
+gui.spec
+build
+testing.py
